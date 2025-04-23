@@ -1,0 +1,540 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Great+Vibes&family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: #d0ced1;
+}
+
+/* General Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Logo */
+.logo {
+    height: 80px; 
+    width: 100px; 
+    padding-left: 10px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+}
+
+/* Dropdown Menu */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    display: block;
+    margin: 5px 0;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+/* Hamburger Menu-Mobile */
+.menu-toggle {
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Home Page */
+.hero_index img{
+    width: 100%;
+    height: 100%;
+}
+
+.index_introduction p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 22px 25px;
+    text-align: center;
+    margin:0.5cap;
+}
+
+.index_information{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index_flex{
+    align-items: center;
+    margin: 20px 0;
+    width: 400px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    background-color: #bdbdbd;
+}
+
+.index_flex img{
+    width: 400px;
+    height: 240px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+}
+
+.index_flex ul li{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.index_flex ol li{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.index_information h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.index_information a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px 10px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.footer_logo h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px 10px;
+}
+footer a:hover{
+    color: #7c7c7c;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+}
+.fa-square-twitter{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.fa-instagram{
+    font-size: 30px;  
+}
+.fa-youtube{
+    font-size: 30px;  
+    padding-bottom: 20px;
+}
+
+/* About Page */
+.branches_heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.branches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+.branch h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.branch_iframe{
+    padding-bottom: 15px;
+}
+.branch p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.table{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: 1.6px solid #000000;
+    padding: 20px;
+}
+th{
+    background-color: #000000;
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+tfoot{
+    text-align: center;
+    font-size: large;
+}
+
+/* Upcoming Games */
+.upcoming_games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.upcoming_game {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    cursor: pointer;
+}
+.upcoming_game img {
+    width: 100%;
+    height: 100%;
+}
+.upcoming_game .release-date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.upcoming_game h1{
+    font-size: 1.2rem;
+    color: #ed7e7e;
+}
+.upcoming_game:hover .release-date {
+    opacity: 1;
+}
+.upcoming_intro h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;  
+    margin: 0;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.upcoming_intro p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+/* Console & Peripherals */
+
+.index_introduction h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.index_introduction p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.items {
+    position: relative;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 500px;
+}
+.items img {
+    width: 100%;
+    height: 200px;
+    object-fit:contain;
+}
+.items .price-tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.items:hover .price-tag {
+    opacity: 1;
+}
+
+/* Games Page */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding-left: 58px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.game-card {
+    position: relative;
+    box-shadow: 0 4px 8px #00000033;
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 400px;
+}
+.game-card img {
+    width: 397px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    transition: transform 0.3s ease-in-out;
+}
+.game-card:hover img {
+    transform: scale(1.1);
+}
+.game-card .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000b3;
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.game-card .description h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: #ed7e7e;
+}
+.game-card .description p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.game-card:hover .description {
+    opacity: 1;
+}
+
+/* queries page */
+.faq_heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.faq_heading p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+.faq-item{
+    width: 400px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    background-color:#bdbdbd;
+}
+.faq-item h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.faq-item p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.form-container h2{
+    font-size: 2rem;
+}
+form{
+    width: 400px;
+    margin: 25px 0;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+    background-color:#bdbdbd;
+}
+form label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px 10px;
+}
+form input{
+    width: 95%;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+form textarea{
+    width: 95%;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+form button{
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px #00000033;
+}

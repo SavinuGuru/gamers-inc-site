@@ -1,0 +1,170 @@
+[
+  {
+    "category": "Processors",
+    "name": "Intel Core i3",
+    "price": 35000,
+    "image": "images/intel 13.webp"
+  },
+  {
+    "category": "Processors",
+    "name": "Intel Core i5",
+    "price": 38000,
+    "image": "images/intel i5.webp"
+  },
+  {
+    "category": "Processors",
+    "name": "Intel Core i7",
+    "price": 40000,
+    "image": "images/intel i7.webp"
+  },
+  {
+    "category": "Processors",
+    "name": "Intel Core i9",
+    "price": 45000,
+    "image": "images/intel i9.webp"
+  },
+  {
+    "category": "Processors",
+    "name": "AMD RYZEN 5",
+    "price": 36500,
+    "image": "images/ryzen 5.webp"
+  },
+  {
+    "category": "Processors",
+    "name": "AMD RYZEN 7",
+    "price": 54000,
+    "image": "images/ryzen 7.webp"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 3060",
+    "price": 430000,
+    "image": "images/3060.webp"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 4060",
+    "price": 540000,
+    "image": "images/4060.webp"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 5070",
+    "price": 800000,
+    "image": "images/5070.gif"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 5080",
+    "price": 900000,
+    "image": "images/5080.gif"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 5090",
+    "price": 1000000,
+    "image": "images/5090.gif"
+  },
+  {
+    "category": "Graphics Cards",
+    "name": "NVIDIA RTX 1660",
+    "price": 160000,
+    "image": "images/1660.webp"
+  },
+  {
+    "category": "Motherboards",
+    "name": "ASUS B450",
+    "price": 35000,
+    "image": "images/b450.png"
+  },
+  {
+    "category": "Motherboards",
+    "name": "MSI DDR5",
+    "price": 70000,
+    "image": "images/ddr5.png"
+  },
+  {
+    "category": "Motherboards",
+    "name": "MSI Z790",
+    "price": 95000,
+    "image": "images/z790.png"
+  },
+  {
+    "category": "Motherboards",
+    "name": "CVN Z790",
+    "price": 69000,
+    "image": "images/cvn790.png"
+  },
+  {
+    "category": "Motherboards",
+    "name": "CVN B650",
+    "price": 50000,
+    "image": "images/cvnb650.png"
+  },
+  {
+    "category": "Motherboards",
+    "name": "MSI B650",
+    "price": 68000,
+    "image": "images/b650.png"
+  },
+  {
+    "category": "Memory (RAM)",
+    "name": "8GB DDR4",
+    "price": 25000,
+    "image": "images/8ddr4.png"
+  },
+  {
+    "category": "Memory (RAM)",
+    "name": "16GB DDR4",
+    "price": 40000,
+    "image": "images/16ddr4.png"
+  },
+  {
+    "category": "Memory (RAM)",
+    "name": "16GB DDR5",
+    "price": 60000,
+    "image": "images/16ddr5.png"
+  },
+  {
+    "category": "Memory (RAM)",
+    "name": "32GB DDR5",
+    "price": 80000,
+    "image": "images/32ddr5.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "500GB HDD",
+    "price": 6500,
+    "image": "images/500gb.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "1TB HDD",
+    "price": 15000,
+    "image": "images/1tb.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "2TB HDD",
+    "price": 30000,
+    "image": "images/2tb.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "4TB HDD",
+    "price": 60000,
+    "image": "images/4tb.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "8TB HDD",
+    "price": 70000,
+    "image": "images/8tb.png"
+  },
+  {
+    "category": "Storage Devices",
+    "name": "10TB HDD",
+    "price": 95000,
+    "image": "images/10tb.png"
+  }
+]

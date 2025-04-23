@@ -1,0 +1,331 @@
+@media screen and (max-width: 768px) {
+    nav {
+        display: none; 
+        flex-direction: column;
+        width: 95%;
+        background-color: #000000;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        margin: 0 10px;
+        z-index: 1000;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li ul {
+        position: static;
+        display: none;
+        margin-top: 10px;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    .menu-toggle:checked + .hamburger + nav {
+        display: flex;
+    }
+
+    /* Home page */
+    .hero_index img{
+        width: 100%;
+        height: 100%;
+    }
+    .index_introduction p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 22px 25px;
+        text-align: center;
+    }
+
+    .index_information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .index_flex img{
+        width: 100%;
+        height: 100%;
+    }
+    .index_information h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Outfit', sans-serif;
+    }
+    .index_information p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px 10px;
+    }
+    .index_flex{
+        margin: 20px 10px;
+    }
+    /* show more Button */
+    .index_information a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px 10px;
+        background-color: #333;
+        border-radius: 5px;
+    }
+
+    /* Footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    footer p{
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px 10px;
+    }
+    footer a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px 10px;
+    }
+    footer a:hover{
+        color: #7c7c7c;
+    }
+    footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer_logo{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* About page */
+    .branches_heading h1{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .branches{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .branch h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .branch_iframe{
+        padding-bottom: 15px;
+    }
+    .branch p{
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        padding-top: 8px;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 1px solid #333;
+        padding: 10px;
+        text-align: center;
+    }
+    th{
+        background-color: #333;
+        color: #fff;
+    }
+
+    /* Upcoming Games */
+
+    .upcoming_intro h1{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    .upcoming_intro p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .upcoming_games {
+        flex-direction: column;
+        align-items: center;
+    }
+    .upcoming_game {
+        width: 90%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .upcoming_game img {
+        height: auto;
+    }
+
+    /* Consoles & Peripherals */
+    .grid_items {
+        grid-template-columns: 1fr;
+    }    
+
+    /* Games Page */
+    .game-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        padding: 5px;
+        padding-left: 24px;
+    }
+
+    /* faq page */
+    .faq_heading h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        padding-top: 40px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    .faq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+    }
+  
+    .product {
+      padding: 12px;
+      text-align: center;
+    }
+  
+    .product img {
+      width: 80px;
+      margin-bottom: 8px;
+    }
+  
+    .product label {
+      font-size: 0.95rem;
+    }
+  
+    .product input[type="number"] {
+      width: 60px;
+      font-size: 0.9rem;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 1rem;
+    }
+  
+    .action-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .thankyou-container {
+      margin: 40px 15px;
+      padding: 30px 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .home-button {
+      width: 100%;
+      font-size: 1rem;
+    }
+}
+  
+  
